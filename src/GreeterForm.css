@@ -1,0 +1,40 @@
+.warning{
+    color: white;
+    background-color: red;
+    display: inline-block;
+    padding: 0.2rem;
+    margin: 0.1em;
+    border-radius: 0.5em;
+}
+
+.GreeterWindow{
+    border-radius: 1rem;
+    padding: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    background-color: white;
+    text-align: center;
+}
+
+.LoginForm{
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.LoginForm input{
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 1px gray solid;
+    margin-right: 0.5rem;
+}
+
+.GreeterWindow button{
+    background-color: black;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+}
+
+.Greeter_Login{
+    width: 80rem;
+}
