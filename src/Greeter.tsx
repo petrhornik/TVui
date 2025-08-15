@@ -1,10 +1,10 @@
 import Logo from "./Logo"
 
-export default function Greeter({user=""}){
+export default function Greeter({user="", greeterVar}){
     return(
-        <>
-            <Logo />
-            <h2>{user === "" ?  "Prosím zadejte své jméno!" : `Vítejte uživateli ${user}!`}</h2>
-        </>
+        <div>
+            <Logo greeterVar={greeterVar}/>
+            <h2 style={greeterVar == 1 ? {display: "none"} : {}}>{user === "" ?  "Prosím zadejte své jméno!" : console.log(`User ${user} now logged in!`)}</h2>
+        </div>
     )
 }
